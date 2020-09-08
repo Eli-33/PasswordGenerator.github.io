@@ -126,7 +126,7 @@ function userInput() {
   return randomFunction;
 
 }
-
+// generating password
 function generatePassword() {
   let userInputVar = userInput()
 
@@ -151,13 +151,14 @@ function generatePassword() {
 
   console.log(possibleCharacters)
   
-// loop 
+// for making randomly
   for(i = 0; i < userInputVar.length; i++){
     guaranteedCharacters.push(possibleCharacters[Math.floor(Math.random() * possibleCharacters.length)])
   }
   return guaranteedCharacters.join("")
 
 }
+// function to show the final result
 function writePassword(){
   var generate = generatePassword()
   var passwordText = document.querySelector("#password");
