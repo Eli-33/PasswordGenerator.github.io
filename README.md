@@ -29,7 +29,8 @@ Please visit [my website](https://eli-33.github.io/PasswordGenerator.github.io/)
 
 
 ## Screenshot
-added in Issues
+the img of the App (https://github.com/Eli-33/PasswordGenerator.github.io/tree/master/Assets/img).
+
 
 ## License
 Due to the nature of this exercise, no license has been included.
